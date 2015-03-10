@@ -1,1 +1,10 @@
 \\ds.inte.co.jp\ibs\IBS_Vietnam\03_PJT\001_Time Report
+
+
+
+
+2. Source : https://vn00007.ds.inte.co.jp/svn/Source_Capita/
+user: pham.the.tong
+pass: tong
+
+
