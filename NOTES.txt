@@ -1,0 +1,179 @@
+-Tomcat: 
+	+set CATALINA_HOME=C:\SOFTWARE\apache-tomcat-8.0.20
+	+%CATALINA_HOME%\bin\startup.bat
+	+%CATALINA_HOME%\bin\shutdown	
+	
+-http://localhost:8080/jenkins
+	
+-git clone https://github.com/childhood5/hello-world.git
+
+-set path=C:\opscode\chefdk\bin;C:\opscode\chefdk\embedded\bin
+
+
+======================Role admin==================== 
+dir -ld C:\Users\admin-mente\chef-repo\settings.ini
+
+======================Host chef server===============
+Name: foreverchildhood
+Pass: childhood
+https://manage.chef.io/organizations/foreverchildhood
+
+======================Github==========================
+-name:childhood5
+-pass:childhood6
+-create new repo: git init
+-git clone https://github.com/childhood5/hello-world.git
+-git clone username@IP:/https://github.com/childhood5/The-first.git
+-git add *
+-git commit -m "comment Commit"
+-git push origin branch
+-create new branch "feature": git checkout -b feature
+-delete branch "feature" : git branch -d feature
+-git pull
+-git merge branch
+
+
+======================SSH=============================
+PASS: childhood
+
+=======================MySQL==========================
+-Port: 3306
+
+======================================================
+
+
+
+http://subclipse.tigris.org/servlets/ProjectProcess?pageID=p4wYuA
+
+http://expressmagazine.net/posts/view/840/git-he-thong-quan-ly-source-code
+
+http://backlogtool.com/git-guide/vn/intro/intro2_1.html (msysgit)
+
+
+
+powershell_script 'Install IIS' do
+  code 'Add-WindowsFeature Web-Server'
+  guard_interpreter :powershell_script
+  not_if "(Get-WindowsFeature -Name Web-Server).Installed"
+end
+
+
+knife bootstrap windows winrm C:/Users/admin-mente/.chefdk/gem/ruby/2.0.0/gems/knife-windows-0.8.4/lib/chef/knife/bootstrap_windows_base.rb --winrm-user foreverchildhood --winrm-password 'childhood' --node-name node1 --run-list 'recipe[learn_chef_iis]'
+
+
+
+https://github.com/melezhik
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://www.journaldev.com/3524/spring-hibernate-integration-example-tutorial-spring-4-hibernate-3-and-hibernate-4
+
+
+
+
+
+
+
+
+
+CREATE TABLE  employee (
+  EMPLOYEE_ID bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  NAME varchar(45) NOT NULL,
+  DIVISION varchar(255) NOT NULL,
+  START_DATE datetime NOT NULL,
+  PRIMARY KEY (EMPLOYEE_ID)
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
+
+
+INSERT INTO employee (EMPLOYEE_ID, NAME, DIVISION, START_DATE)
+VALUES (1,'child','4','2015-03-10'); 
+
+SELECT * from employee;
+
+C:\Program Files (x86)\MySQL\MySQL Server 5.6
+
+
+
+
+
+
+====================================================================
+
+package com.ibsv.capitakpi.daoImpl;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import org.apache.log4j.Logger;
+
+import com.ibsv.capitakpi.dao.ServiceDAO;
+public class ServiceDAOImpl implements ServiceDAO{
+
+	private static final Logger log = Logger.getLogger(ServiceDAOImpl.class);
+
+	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
+	static final String DB_URL = "jdbc:mysql://localhost/mytestdb";
+	
+	@Override
+	public String getModel(String model) {
+		
+		
+		Connection conn = null;
+		Statement stmt = null;
+		
+		try {
+
+			Class.forName("com.mysql.jdbc.Driver");
+			conn = DriverManager.getConnection(DB_URL, "", "");
+			stmt = conn.createStatement();
+			ResultSet rs = stmt.executeQuery("select * from Employee");
+
+			while (rs.next()) {
+				
+				int id = rs.getInt("EMPLOYEE_ID");
+				String name = rs.getString("NAME");
+				String division = rs.getString("DIVISION");
+				
+				log.info(id+name+division);
+			}
+
+		} catch (ClassNotFoundException e) {
+			log.error(e);
+		} catch (SQLException e) {
+			log.error(e);
+		}
+		return model;
+	}
+
+}
+
+
+
+
+
+
+
+http://viralpatel.net/blogs/spring3-mvc-hibernate-maven-tutorial-eclipse-example/
+
+http://www.codejava.net/frameworks/spring/spring-4-and-hibernate-4-integration-tutorial-part-1-xml-configuration
+
+http://websystique.com/springmvc/spring-4-mvc-and-hibernate4-integration-example-using-annotations/
+http://www.journaldev.com/3531/spring-mvc-hibernate-mysql-integration-crud-example-tutorial
+
+
+
+
+
