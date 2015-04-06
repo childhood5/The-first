@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+    
+  h5 Enter Name: 
+  input(type="text", data-ng-model="name", title="Enter package module to see update statistics")
+  br
+  {{ name }}
+    
+   
+  
