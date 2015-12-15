@@ -98,34 +98,6 @@
         <io-item-ext-prop-list/>
         <io-item-next-io-logic-list/>
       </io-item>
-      <io-item>
-        <io-code>B010203_SHOW_QUOTATION_REQUEST_DETAIL</io-code>
-        <code>BACK_LIST_QUOTATION_REQUEST</code>
-        <name>一覧画面へ戻る</name>
-        <is-visible>true</is-visible>
-        <item-type>A</item-type>
-        <is-require>false</is-require>
-        <length>0</length>
-        <scale>-1</scale>
-        <min-length>0</min-length>
-        <max-length>0</max-length>
-        <max-ByteSize>0</max-ByteSize>
-        <statement>BP_B010203_SHOW_QUOTATION_REQUEST_DETAIL</statement>
-        <next-io-code>B010202_LIST_QUOTATION_REQUEST_CITATION</next-io-code>
-        <next-io-param>QR_NO_FORM, STATUS_QUOTATION, PURCHASING_MANAGERS_NAME, REQUEST_CONTACT_NAME, REQUEST_NAME, DELIVERY_CD, ANSWER_CONTACT_NAME, REQUEST_DATE, DEADLINE_DATE, SEARCH_KEY1_LABEL, SEARCH_KEY2_LABEL, SEARCH_KEY3_LABEL, SEARCH_KEY4_LABEL, ALL_KEY, PER_PAGE, COMPANY_CD_USER, POST_ID_USER, REQUEST_USER_ID</next-io-param>
-        <msg-code-pre>INFO_B010202</msg-code-pre>
-        <order>30</order>
-        <level>1</level>
-        <sort-key>0</sort-key>
-        <is-disable>false</is-disable>
-        <creator>db2inst1</creator>
-        <create-time>2015-10-26 10:30:15.0</create-time>
-        <updator>db2inst1</updator>
-        <update-time>2015-11-12 11:30:23.0</update-time>
-        <io-item-prop-list/>
-        <io-item-ext-prop-list/>
-        <io-item-next-io-logic-list/>
-      </io-item>
     </io-item-list>
     <io-prop-list/>
     <sec-io>
