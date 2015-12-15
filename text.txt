@@ -1,8 +1,8 @@
 ﻿<?xml version = "1.0"  encoding = "UTF-8" ?>
   <io>
     <tool-version>1.5.2.1</tool-version>
-    <code>B010203_SHOW_QUOTATION_REQUEST_DETAIL</code>
-    <name>B010203_SHOW_QUOTATION_REQUEST_DETAIL</name>
+    <code>B110201_SHOW_QUOTATION</code>
+    <name>B110201_SHOW_QUOTATION</name>
     <io-type>IO</io-type>
     <dm-code>WK_QUOTATION</dm-code>
     <condition>QR_FIX_NO = @1</condition>
@@ -14,7 +14,7 @@
     <io-parts-list/>
     <io-item-list>
       <io-item>
-        <io-code>B010201_QUOTATION_REQUEST_CITATION</io-code>
+        <io-code>B110101_QUOTATION_REQUEST_CITATION</io-code>
         <code>QUOTATION</code>
         <name>見　積　引　用　検　索</name>
         <is-visible>true</is-visible>
