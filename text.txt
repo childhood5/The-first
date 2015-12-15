@@ -8,11 +8,11 @@ D:\projects\java\M2M\zipfile\BF_CE_201411\filename201410sp201410.xml
 1. BF_CE_201411: include file_id
 2. M2M: include one folder
 
-childhood2
-childhood4
-childhood6
-childhood8
-childhood10
+childhood1
+childhood3
+childhood5
+childhood7
+childhood9
 
 
 
