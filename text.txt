@@ -1,6 +1,6 @@
 ﻿<?xml version = "1.0"  encoding = "UTF-8" ?>
   <io>
-    <tool-version>1.4.2.1</tool-version>
+    <tool-version>1.5.2.1</tool-version>
     <code>B010203_SHOW_QUOTATION_REQUEST_DETAIL</code>
     <name>B010203_SHOW_QUOTATION_REQUEST_DETAIL</name>
     <io-type>IO</io-type>
@@ -14,14 +14,48 @@
     <io-parts-list/>
     <io-item-list>
       <io-item>
-        <io-code>B010203_SHOW_QUOTATION_REQUEST_DETAIL</io-code>
-        <code>SHOW_QUOTATION_REQUEST</code>
-        <name>見　積　依　頼　詳　細</name>
+        <io-code>B010201_QUOTATION_REQUEST_CITATION</io-code>
+        <code>QUOTATION</code>
+        <name>見　積　引　用　検　索</name>
         <is-visible>true</is-visible>
         <item-type>O</item-type>
         <is-require>false</is-require>
         <length>0</length>
         <scale>-1</scale>
+        <min-length>0</min-length>
+        <max-length>0</max-length>
+        <max-ByteSize>0</max-ByteSize>
+        <default-value>'見　積　引　用　検　索'</default-value>
+        <order>10</order>
+        <level>1</level>
+        <sort-key>0</sort-key>
+        <dm-item-code>@TEXT</dm-item-code>
+        <is-disable>false</is-disable>
+        <creator>db2inst1</creator>
+        <create-time>2015-10-26 10:25:42.0</create-time>
+        <updator>db2inst1</updator>
+        <update-time>2015-10-26 10:28:17.0</update-time>
+        <io-item-prop-list>
+          <io-item-prop>
+            <io-code>B010201_QUOTATION_REQUEST_CITATION</io-code>
+            <io-item-code>QUOTATION</io-item-code>
+            <key>labelAvailable</key>
+            <value>FALSE</value>
+            <is-disable>false</is-disable>
+          </io-item-prop>
+        </io-item-prop-list>
+        <io-item-ext-prop-list/>
+        <io-item-next-io-logic-list/>
+      </io-item>
+      <io-item>
+        <io-code>B121201_SHOW_QUOTATION_REQUEST_DETAIL</io-code>
+        <code>SHOW_QUOTATION_REQUEST</code>
+        <name>見　積　依　頼　詳　細</name>
+        <is-visible>true</is-visible>
+        <item-type>O</item-type>
+        <is-require>false</is-require>
+        <length>1</length>
+        <scale>1</scale>
         <min-length>0</min-length>
         <max-length>0</max-length>
         <max-ByteSize>0</max-ByteSize>
@@ -52,7 +86,7 @@
         <code>BACK_HEADER</code>
         <name>条件指定画面へ</name>
         <is-visible>true</is-visible>
-        <item-type>A</item-type>
+        <item-type>I</item-type>
         <is-require>false</is-require>
         <length>0</length>
         <scale>-1</scale>
@@ -75,7 +109,7 @@
         <io-item-next-io-logic-list/>
       </io-item>
       <io-item>
-        <io-code>B010203_SHOW_QUOTATION_REQUEST_DETAIL</io-code>
+        <io-code>B111203_SHOW_QUOTATION_REQUEST_DETAIL</io-code>
         <code>CREATE_QUOTATION_REQUEST</code>
         <name>見積依頼を引用作成する</name>
         <is-visible>true</is-visible>
