@@ -8,6 +8,12 @@ D:\projects\java\M2M\zipfile\BF_CE_201411\filename201410sp201410.xml
 1. BF_CE_201411: include file_id
 2. M2M: include one folder
 
+1
+3
+5
+7
+9
+11
 
 
 
