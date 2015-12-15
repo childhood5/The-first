@@ -1,11 +1,11 @@
 ﻿<?xml version = "1.0"  encoding = "UTF-8" ?>
   <io>
-    <tool-version>1.5.2.1</tool-version>
+    <tool-version>1.4.2.1</tool-version>
     <code>B110201_SHOW_QUOTATION</code>
     <name>B110201_SHOW_QUOTATION</name>
     <io-type>IO</io-type>
     <dm-code>WK_QUOTATION</dm-code>
-    <condition>QR_FIX_NO = @1</condition>
+    <condition>QR_FIX_NO = @2</condition>
     <is-disable>false</is-disable>
     <creator>db2inst1</creator>
     <create-time>2015-11-09 12:53:18.0</create-time>
