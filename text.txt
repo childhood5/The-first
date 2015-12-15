@@ -48,6 +48,33 @@
         <io-item-next-io-logic-list/>
       </io-item>
       <io-item>
+        <io-code>B010202_LIST_QUOTATION_REQUEST_CITATION</io-code>
+        <code>BACK_HEADER</code>
+        <name>条件指定画面へ</name>
+        <is-visible>true</is-visible>
+        <item-type>A</item-type>
+        <is-require>false</is-require>
+        <length>0</length>
+        <scale>-1</scale>
+        <min-length>0</min-length>
+        <max-length>0</max-length>
+        <max-ByteSize>0</max-ByteSize>
+        <statement>@KEEP</statement>
+        <next-io-code>B010201_QUOTATION_REQUEST_CITATION</next-io-code>
+        <msg-code-pre>INFO_B010202</msg-code-pre>
+        <order>20</order>
+        <level>1</level>
+        <sort-key>0</sort-key>
+        <is-disable>false</is-disable>
+        <creator>db2inst1</creator>
+        <create-time>2015-10-26 10:30:15.0</create-time>
+        <updator>db2inst1</updator>
+        <update-time>2015-11-11 17:10:06.0</update-time>
+        <io-item-prop-list/>
+        <io-item-ext-prop-list/>
+        <io-item-next-io-logic-list/>
+      </io-item>
+      <io-item>
         <io-code>B010203_SHOW_QUOTATION_REQUEST_DETAIL</io-code>
         <code>CREATE_QUOTATION_REQUEST</code>
         <name>見積依頼を引用作成する</name>
