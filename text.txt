@@ -18,7 +18,7 @@
         <code>SHOW_QUOTATION_REQUEST</code>
         <name>見　積　依　頼　詳　細</name>
         <is-visible>true</is-visible>
-        <item-type>O</item-type>
+        <item-type>I</item-type>
         <is-require>false</is-require>
         <length>0</length>
         <scale>-1</scale>
@@ -26,7 +26,7 @@
         <max-length>0</max-length>
         <max-ByteSize>0</max-ByteSize>
         <default-value>'見　積　依　頼　詳　細'</default-value>
-        <order>10</order>
+        <order>20</order>
         <level>1</level>
         <sort-key>0</sort-key>
         <dm-item-code>@TEXT</dm-item-code>
@@ -37,7 +37,7 @@
         <update-time>2015-11-09 12:54:15.0</update-time>
         <io-item-prop-list>
           <io-item-prop>
-            <io-code>B010203_SHOW_QUOTATION_REQUEST_DETAIL</io-code>
+            <io-code>B010911_SHOW_QUOTATION_REQUEST_DETAIL</io-code>
             <io-item-code>SHOW_QUOTATION_REQUEST</io-item-code>
             <key>labelAvailable</key>
             <value>FALSE</value>
