@@ -147,6 +147,8 @@
       <is-disable>false</is-disable>
     </sec-menu>
   </io>
-F
-S
+ <sec-menu>
+      <io-code>B010203_SHOW_QUOTATION_REQUEST_DETAIL</io-code>
+      <is-disable>false</is-disable>
+    </sec-menu>
 
