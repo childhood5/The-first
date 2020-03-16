@@ -19,7 +19,9 @@ Pass: childhood
 https://manage.chef.io/organizations/foreverchildhood
 
 ======================Github==========================
--name:childhood5
+-name:childhood5a
+D
+d
 -pass:childhood6
 -create new repo: git init
 -git clone https://github.com/childhood5/hello-world.git
