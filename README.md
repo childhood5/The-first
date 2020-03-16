@@ -25,6 +25,11 @@ For more information about cookbooks, see the example files in the `starter` coo
 Roles
 -----
 Roles provide logical grouping of cookbooks and other roles. A sample role can be found at `roles/starter.rb`.
+D
+D
+D
+D
+d
 
 Getting Started
 -------------------------
