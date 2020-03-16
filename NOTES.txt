@@ -18,7 +18,16 @@ Name: foreverchildhood
 Pass: childhood
 https://manage.chef.io/organizations/foreverchildhood
 
+======================Ghttps://manage.chef.io/organizations/foreverchildhood
+
 ======================Github==========================
+-name:childhood5a
+D
+https://manage.chef.io/organizations/foreverchildhood
+
+======================Github==========================
+-name:childhood5a
+Dithub==========================
 -name:childhood5a
 D
 d
